@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 // import bg from "../../public/assets/images/bg.jpg";
-import bgg from "../components/bgg.jpg";
-import bg2 from "../components/bgggg.jpg";
-import bg3 from "../components/elec.jpg";
+import bgg from "../components/images/bgg.jpg";
+import bg2 from "../components/images/bgggg.jpg";
+import bg3 from "../components/images/elec.jpg";
 
 import Products from "./Products";
 import { Carousel } from "react-bootstrap";
@@ -39,8 +39,10 @@ function Home(args) {
               height="550px"
             />
             <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h5 className="card-title display-3 fw-bolder mb-0">
+                50-70% off
+              </h5>
+              <p>Add to cart and enjoy extra discounts.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -50,12 +52,23 @@ function Home(args) {
               alt="Third slide"
               height="550px"
             />
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
+            {/* <Carousel.Caption>
+              <h3>Best Selling Products</h3>
+              <p>Latest launches in electronic devices and accessories.</p>
+            </Carousel.Caption> */}
+            <div
+              className="card-img-overlay d-flex flex-column justify-content-center "
+              style={{ textAlign: "justify" }}
+            >
+              <div className="container">
+                <h4 className="card-title display-5 fw-bolder mb-0">
+                  Best Selling Products
+                </h4>
+                <p className="card-text lead ">
+                  Latest launches in electronic devices and accessories.
+                </p>
+              </div>
+            </div>
           </Carousel.Item>
         </Carousel>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import common from "../components/common.jpg";
+import common from "../components/images/common.jpg";
 
 function Product() {
   // const cardItem = (item) => {
@@ -22,7 +22,7 @@ function Product() {
       <div className="container">
         <div className="row justify-content-around">
           <div class="card my-5 py-4" style={{ width: "18rem" }}>
-            <img class="card-img-top" src={common} />
+            <img class="card-img-top" src={common} alt="" />
             <div class="card-body text-center">
               <h5 class="card-title">Jacket</h5>
               <p className="lead">$200</p>

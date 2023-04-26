@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import aboutImg from "../components/about.jpg";
+import aboutImg from "../components/images/about.jpg";
 
 function About() {
   return (
