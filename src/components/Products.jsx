@@ -4,28 +4,20 @@ import { Link } from "react-router-dom";
 
 const Products = () => {
   const [data, setData] = useState([]);
-  const [filter, setFilter] = useState(data);
+  const [filter, setFilter] = useState([]);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const getProducts = async () => {
-      let componentMounted = true;
       setLoading(true);
       const response = await fetch("https://fakestoreapi.com/products");
-      if (componentMounted) {
-        setData(await response.clone().json());
-        setFilter(await response.json());
-        setLoading(false);
-        console.log(filter);
-        componentMounted(false);
-      }
-
-      // return () => {};
+      setData(await response.clone().json());
+      setFilter(await response.json());
+      setLoading(false);
     };
 
     getProducts();
   }, []);
-
   const Loading = () => {
     return (
       <>
