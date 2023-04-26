@@ -24,7 +24,7 @@ const Products = () => {
     };
 
     getProducts();
-  }, [filter]);
+  }, []);
 
   const Loading = () => {
     return (
