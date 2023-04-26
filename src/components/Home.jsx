@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 // import bg from "../../public/assets/images/bg.jpg";
 import bgg from "../components/images/bgg.jpg";
 import bg2 from "../components/images/bgggg.jpg";
