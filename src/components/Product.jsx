@@ -27,12 +27,12 @@ function Product() {
               <h5 class="card-title">Jacket</h5>
               <p className="lead">$200</p>
               <Link to="/products">
-                <a href="#" class="btn btn-outline-primary me-2">
+                <a href="/cart" class="btn btn-outline-primary me-2">
                   Buy Now
                 </a>
               </Link>
               <Link to="/products">
-                <a href="#" class="btn btn-outline-primary">
+                <a href="/cart" class="btn btn-outline-primary">
                   Add to cart
                 </a>
               </Link>

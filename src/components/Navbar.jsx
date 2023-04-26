@@ -49,12 +49,9 @@ function NavbarComponent() {
               {/* <div className="nav-hover"> */}
               {/* <Link to="/loginmodal"> */}
               <Login />
-              {/* </Link> */}
-              {/* <a to="/register" className="btn btn-outline-dark me-2 nav-hover">
-                <i className="fa fa-user-plus me-1">Register</i>
-              </a> */}
+
               <Register />
-              <a to="/cart" className="btn btn-outline-dark nav-hover">
+              <a href="/cart" className="btn btn-outline-dark nav-hover">
                 <i className="fa fa-shopping-cart me-1">Cart (0) </i>
               </a>
               {/* </div> */}
