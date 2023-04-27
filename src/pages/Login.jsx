@@ -9,13 +9,7 @@ function Login(args) {
 
   return (
     <div>
-      <button
-        // color="warning"
-        className="hoverEffect"
-        // className=" btn btn-outline-dark me-2 bg-white"
-        onClick={toggle}
-        // style={{ color: "black" }}
-      >
+      <button className="hoverEffect" onClick={toggle}>
         <i className="fa fa-sign-in me-1">Login</i>
       </button>
 
@@ -72,11 +66,7 @@ function Login(args) {
             </button>
           </form>
         </ModalBody>
-        <ModalFooter>
-          {/* <Button color="secondary" onClick={toggle}>
-            Cancel
-          </Button> */}
-        </ModalFooter>
+        <ModalFooter></ModalFooter>
       </Modal>
     </div>
   );

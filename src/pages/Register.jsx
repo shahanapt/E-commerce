@@ -8,13 +8,7 @@ function Register(args) {
   const toggle = () => setModal(!modal);
   return (
     <div>
-      <button
-        // color="warning"
-        className="hoverEffect"
-        // className=" btn btn-outline-dark me-2 bg-white"
-        onClick={toggle}
-        // style={{ color: "black" }}
-      >
+      <button className="hoverEffect" onClick={toggle}>
         <i className="fa fa-user-plus me-1">Register</i>
       </button>
 
@@ -71,11 +65,7 @@ function Register(args) {
             </button>
           </form>
         </ModalBody>
-        <ModalFooter>
-          {/* <Button color="secondary" onClick={toggle}>
-            Cancel
-          </Button> */}
-        </ModalFooter>
+        <ModalFooter></ModalFooter>
       </Modal>
     </div>
   );
