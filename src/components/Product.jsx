@@ -3,12 +3,6 @@ import { Link } from "react-router-dom";
 import common from "../components/images/common.jpg";
 
 function Product() {
-  // const cardItem = (item) => {
-  //   return (
-
-  //   );
-  // };
-
   return (
     <div>
       <div className="container py-5">
