@@ -66,7 +66,7 @@ function Login(args) {
             </button>
           </form>
         </ModalBody>
-        <ModalFooter></ModalFooter>
+        <ModalFooter>...</ModalFooter>
       </Modal>
     </div>
   );
