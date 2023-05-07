@@ -19,7 +19,7 @@ function Product() {
             <img class="card-img-top" src={common} alt="" />
             <div class="card-body text-center">
               <h5 class="card-title">Jacket</h5>
-              <p className="lead">$200</p>
+              <p className="lead">$50</p>
               <Link to="/products">
                 <a href="/cart" class="btn btn-outline-primary me-2">
                   Buy Now
